@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body {
+            background-image: url("bg9.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+        }
+
+        .container {
+            border: 1px solid black;
+            margin: 140px;
+            padding: 50px;
+            height: 250px;
+            width: 400px;
+        }
+        .loginbutton{
+            border-radius: 30px;
+            color:white;
+            background-color: black;
+        }
+        .fyp{
+            color: black;
+        }
+
+        .navbar {
+            text-align: center;
+            position: fixed;
+            
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 100%;
+        }
+
+        ul {
+            margin: 0px auto;
+            display: inline-block;
+
+        }
+
+        li {
+            list-style-type: none;
+            float: right;
+            margin: 30px 60px;
+        }
+
+        .nav1 {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+
+            <li><a class="nav1" href="create account.html">Create account</a></li>
+            <li><a class="nav1" href="about.html">About</a></li>
+            <li><a class="nav1" href="login.html">login</a></li>
+            <li><a class="nav1" href="index.html">Home </a></li>
+
+        </ul>
+    </nav>
+    <center>
+        <div class="container">
+            <h1>Log In:</h1><br>
+            <table cellspacing:"10ox">
+                <tr>
+                    <td><label for="username">Username:</label></td>
+                    <td><input type="text" name="username" id="username" placeholder="@#$%&*/ not allowed"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" name="password" id="password" placeholder="Create new Password"></td>
+                </tr>
+            </table><br>
+           <a href="index.html"> <button class="loginbutton">Log In</button></a><br><br>
+            <a class="fyp" href="forget your password">forget your password</a>
+
+        </div>
+    </center>
+
+</body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account</title>
+    <style>
+        body {
+            margin: 0;
+            background-image: url(bg9.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .container {
+            border: 1px solid black;
+            height: 500px;
+            width: 400px;
+            margin: 150px auto 100px;
+            padding: 20px;
+
+        }
+        .cabutton{
+            background-color: black;
+            color: white;
+            border-radius: 30px;
+        }
+
+        .navbar {
+            text-align: center;
+            position: fixed;
+            top: 0;
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 100%;
+        }
+
+        ul {
+            margin: 0px auto;
+            display: inline-block;
+
+        }
+
+        li {
+            list-style-type: none;
+            float: right;
+            margin: 30px 60px;
+        }
+
+        .nav1 {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+
+            <li><a class="nav1" href="create account.html">Create account</a></li>
+            <li><a class="nav1" href="about.html">About</a></li>
+            <li><a class="nav1" href="login.html">login</a></li>
+            <li><a class="nav1" href="index.html">Home </a></li>
+
+        </ul>
+    </nav>
+    <center>
+        <div class="container">
+
+            <h1>Create New Account:</h1><br>
+
+            <table cellspacing="10px">
+                <tr>
+                    <td><label for="Name">Full Name:</label></td>
+                    <td><input type="text" name="Name" id="Name" placeholder="Enter your name"></td>
+                </tr>
+                <tr>
+                    <td><label for="username">Username:</label></td>
+                    <td> <input type="text" name="username" id="username" placeholder="@#$%&*/ not allowed"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" name="password" id="password" placeholder="Create new Password"></td>
+                </tr>
+                <tr>
+                    <td><label for="Email">Email:</label></td>
+                    <td><input type="Email" name="Email" id="Email" placeholder="Enter your emial"></td>
+                </tr>
+                <tr>
+                    <td><label for="contact">Contact:</label></td>
+                    <td><input type="number" name="Contact" id="Contact" placeholder="Enter your no"></td>
+                </tr>
+                <tr>
+                    <td><label for="aadhar no">Aadhar No:</label></td>
+                    <td><input type="text" name="aadhar no" id="aadhar no" placeholder="Enter your aadhar number"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age:</label></td>
+                    <td><input type="number" name="age" id="age" placeholder="Enter your age"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td><select name="gender" id="gender">
+                            <option value="select">select</option>
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                            <option value="trans">trans</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td> <label for="dob">Date of birth: </label></td>
+                    <td><input type="date" name="dob" id="dob"></td>
+                </tr>
+            </table>
+            <br>
+           <a href="login.html"> <button class="cabutton">Submit</button> </a>
+        </div>
+    </center>
+</body>
+
+</html>
